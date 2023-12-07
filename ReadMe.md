@@ -10,12 +10,13 @@
 
 ```
 grpcio
+grpcio-tools
 numpy
 ```
 
 **install command:**
 
-`python -m pip install grpcio numpy`
+`python -m pip install grpcio grpcio-tools numpy`
 
 ## Usage:
 

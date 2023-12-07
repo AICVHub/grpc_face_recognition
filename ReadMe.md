@@ -19,7 +19,7 @@ numpy
 
 ## Usage:
 
-1. clone this repository and cd to it's root directory;
+1. clone this repository and cd to it's root directory:
 
 ```shell
 git clone git@github.com:aiLiwensong/grpc_face_recognition.git
@@ -30,7 +30,7 @@ cd grpc_face_recognition
 
    `python examples/run_server.py`
 
-3. run client to test;
+3. run client to test:
 
    `python examples/run_client.py`
 

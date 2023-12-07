@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package api.product.pft.v1.face;
+
+
+// 搜索人脸请求
+message SearchFaceReq {
+    repeated float feats = 1;
+}
+
+// 搜索人脸响应
+message SearchFaceReply {
+    string student_id = 2;
+}
+
+
+service API {
+  rpc SearchFace (SearchFaceReq) returns (SearchFaceReply) {}
+}
